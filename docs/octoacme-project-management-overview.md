@@ -14,19 +14,35 @@ Applies to all cross-functional projects that deliver product features, services
 - Psychological safety: encourage feedback and learning.
 
 ## Core Roles
-- Project Manager (PM): coordinates delivery, schedules, risk, communications.
-- Product Manager (PdM): defines outcomes, prioritizes backlog, and measures success.
-- Developers: implement features, collaborate on design and testability.
-- QA/Testing: validate quality and acceptance criteria.
-- Stakeholders: provide inputs and approvals.
+
+### Role Tier 1 — Always Required
+- **Project Manager (PM):** coordinates delivery, schedules, risk, and communications.
+- **Product Manager (PdM):** defines outcomes, prioritizes backlog, and measures success.
+- **Developers:** implement features, collaborate on design, and ensure testability.
+
+### Role Tier 2 — Usually Required
+- **QA Lead:** owns test strategy, coordinates testing efforts, and ensures quality gates are met.
+- **Technical Lead:** owns technical direction, ensures code quality, and mentors the development team.
+- **Scrum Master:** facilitates agile ceremonies, removes blockers, and fosters team communication.
+
+### Role Tier 3 — As Needed
+- **UX Designer:** ensures a user-centric design approach throughout feature planning and delivery.
+- **Business Analyst:** bridges business objectives and technical delivery by translating requirements.
+
+> **Stakeholders** (not listed above) provide inputs and approvals across all tiers.
+
+See [Personas](octoacme-roles-and-personas.md) for detailed role definitions and responsibilities.
 
 ## Key Artifacts
-- Project Charter / One-pager
-- Roadmap and Release Plan
-- Sprint/Iteration Backlog
-- Acceptance Criteria & Definition of Done
-- Risk Register
-- Retrospective notes and action items
+- Project Charter / One-pager (PM, PdM owned)
+- Roadmap and Release Plan (PdM owned)
+- Sprint/Iteration Backlog (PM, Scrum Master owned)
+- Acceptance Criteria & Definition of Done (PdM, Business Analyst owned)
+- Design System / Wireframes (UX Designer owned)
+- Test Plan (QA Lead owned)
+- Architecture Decision Records (Technical Lead owned)
+- Risk Register (PM owned)
+- Retrospective notes and action items (Scrum Master owned)
 
 ## Lifecycle (high-level)
 1. Initiation: problem statement, stakeholders, high-level timeline.
